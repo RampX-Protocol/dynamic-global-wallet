@@ -12,16 +12,16 @@ type Config = {
 
 export const config: Config = {
   // Wallet name will be seen as the Wallet name
-  walletName: "<wallet-name>",
+  walletName: "Duffle",
   // Wallet icon will be seen as the Wallet icon
-  walletIcon: "<wallet-icon>",
+  walletIcon: "https://qswap-rosy.vercel.app/assets/icons/duffle-icon.svg",
   // URL of your wallet domain (e.g. https://dynamic.example.com)
-  walletUrl: "<wallet-url>",
+  walletUrl: "https://duffle.exchange",
   // Environment ID of your wallet (e.g. 1234567890)
-  environmentId: "<environment-id>",
+  environmentId: "5743bd99-7996-455b-8cd6-b19b3e205c8d",
   // EIP6963 configuration
   eip6963: {
     // RDNS of your wallet (e.g. com.example.wallet)
-    rdns: "<rdns>",
+    rdns: "com.duffle.exchange",
   },
 };
