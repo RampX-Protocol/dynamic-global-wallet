@@ -1,8 +1,8 @@
 {
-  "name": "<wallet-package-name>",
-  "author": "<wallet-author>",
-  "description": "<wallet-description>",
-  "version": "1.0.0",
+  "name": "duffle-wallet",
+  "author": "duffle.xyz",
+  "description": "Duffle Wallet",
+  "version": "1.0.3",
   "type": "module",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -16,7 +16,7 @@
     "build:cjs": "tsc --project ./tsconfig.json --module commonjs --moduleResolution node --outDir ./dist/cjs --removeComments --verbatimModuleSyntax false"
   },
   "dependencies": {
-    "@dynamic-labs/global-wallet-client": "^4.9.9",
+    "@dynamic-labs/global-wallet-client": "^4.12.3",
     "@wallet-standard/wallet": "^1.1.0"
   },
   "devDependencies": {
